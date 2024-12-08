@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovoWeb</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #000;
+        }
+        header img {
+            height: 40px;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 60px 40px;
+            background-color: #333;
+        }
+        .hero img {
+            width: 50%;
+            border-radius: 10px;
+        }
+        .hero .text {
+            max-width: 40%;
+        }
+        .hero .text h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .hero .text p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero .text button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .hero .text .get-started {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .hero .text .learn-more {
+            background-color: #555;
+            color: #fff;
+        }
+        .pricing {
+            text-align: center;
+            padding: 40px;
+            background-color: #222;
+        }
+        .pricing h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+        .pricing-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: left;
+        }
+        .card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        .card button {
+            padding: 10px;
+            width: 100%;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="InnovoWeb Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="hero-image.png" alt="InnovoWeb Sample Design">
+        <div class="text">
+            <h1>INNOVOWEB</h1>
+            <p>Elevating your online presence with stunning, innovative designs that captivate your audience, enhance user experience, and reflect the unique essence of your brand.</p>
+            <button class="get-started">Get Started</button>
+            <button class="learn-more">Learn More</button>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <h2>Book a Meeting Today</h2>
+        <p>Let’s bring your vision to life! Schedule a meeting with InnovoWeb today and start building your dream website.</p>
+        <div class="pricing-cards">
+            <div class="card">
+                <h3>Website in a Day</h3>
+                <p>$1,800 /month</p>
+                <p>1 Project</p>
+                <p>Analytics</p>
+                <p>Insights Panel</p>
+                <p>Share Features</p>
+                <button>Get Started</button>
+            </div>
+            <div class="card">
+                <h3>Template Website</h3>
+                <p>$1,200 /month</p>
+                <p>2 Projects</p>
+                <p>Analytics</p>
+                <p>Insights Panel</p>
+                <p>Share Features</p>
+                <button>Get Started</button>
+            </div>
+            <div class="card">
+                <h3>Full Custom Website</h3>
+                <p>$2,600 /month</p>
+                <p>Unlimited Projects</p>
+                <p>Analytics</p>
+                <p>Insights Panel</p>
+                <p>Share Features</p>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
